@@ -440,6 +440,9 @@
   .h-1\/2 {
     height: calc(1/2 * 100%);
   }
+  .h-5 {
+    height: calc(var(--spacing) * 5);
+  }
   .h-9 {
     height: calc(var(--spacing) * 9);
   }
@@ -451,6 +454,9 @@
   }
   .h-\[1\] {
     height: 1;
+  }
+  .h-\[500px\] {
+    height: 500px;
   }
   .h-screen {
     height: 100vh;
